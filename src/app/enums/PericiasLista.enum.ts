@@ -1,0 +1,27 @@
+export enum PericiasLista {
+abjurar = "Abjurar Magia",
+artesanato = "Artesanato",
+atirarArco = "Atirar com arco e funda",
+bloquear = "Bloquear",
+brigar = "Brigar",
+comandar = "Comandar Magia",
+compreender = "Compreender Magia",
+conhecimento = "Conhecimento",
+criar = "Criar Magia",
+esquivar  = "Esquivar",
+gatuno = "Gatuno",
+lutarEspadas1 = "Lutar com espadas pesadas",
+lutarEspadas2  = "Lutar com espadas leves",
+lutarLanças = "Lutar com Lanças e bordões",
+lutarMachados = "Lutar com machados e clavas",
+oficio = "Ofício",
+contarHistorias = "Contar Histórias",
+perceber = "Perceber",
+proezasFisicas1 = "Proezas Físicas",
+proezasFisicas2 = "Proezas Físicas (resistir)",
+saltimbanco = "Acrobata",
+usarReliquias = "Usar Relíquias ancestrais",
+xamanismo = "Xamanismo",
+}
+
+

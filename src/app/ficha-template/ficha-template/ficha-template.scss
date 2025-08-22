@@ -1,0 +1,34 @@
+.conteudo{
+  margin: 0 auto;
+  position: relative;
+
+
+.atb{
+ margin-top: 2%;;
+  &__principal{
+    display: contents;
+  }
+  &__demais{
+    display: inline-block;
+  }
+}
+.pericia{
+ margin-top: 2%;
+ app-pericia{
+  font-size: 18px;
+ }
+}
+.barra{
+  box-shadow: 5px 5px 10px rgba(71, 35, 22, 0.647);
+  margin: 0 15px;
+  padding: 10px;
+  background-color: var(--cor-tema-10);
+  &__padrao{
+    background-color:var(--cor-tema-9);
+    color:ghostwhite;
+    font-size: 24px;
+    display: inline;
+    width: 10%;
+  }
+}
+}

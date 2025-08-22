@@ -1,0 +1,287 @@
+.atb__demais {
+  box-sizing: content-box;
+  margin: 30px auto;
+  padding: 10px;
+  width: 100%;
+  align-content: space-around;
+  box-sizing: border-box;
+
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    background-color: transparent;
+    font-weight: lighter;
+    box-sizing: border-box;
+     color:var(--cor-tema-1);
+  }
+
+  p {
+    text-align: center;
+    font-size: 24px;
+    background-color: transparentize($color: #000000, $amount: 0.9);
+    width:  content-box;
+    box-sizing: border-box;
+  }
+  .ferimentos {
+    width: 100%;
+    height: max-content;
+    background-color:var(--cor-tema-7);
+    box-sizing: border-box;
+    border: 3px double;
+   label,
+      output{
+        display: block;
+      }
+
+    p {
+      position: sticky;
+      margin: 0 5%;
+      color:  #EFEFEF;
+
+    }
+    &__leve {
+      background: transparent;
+      width: 25%;
+      height: max-content;
+      padding: 1%;
+
+      div,
+      label,
+      output,
+      input {
+        color: var(--cor-tema-1);
+         background: transparent;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+    &__moderado,
+    .div__moderado {
+      color: var(--cor-tema-1);
+      background: transparent;
+      width: 25%;
+      padding: 1%;
+      div,
+      label,
+      output,
+      input {
+        color: var(--cor-tema-1);
+        background-color: transparent;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+    &__severo,
+    .div__severo {
+      background: transparent;
+      width: 25%;
+      padding: 1%;
+      div,
+      label,
+      output,
+      input {
+        color: var(--cor-tema-1);
+        background-color: transparent;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+    &__mortal {
+      background: transparent;
+      width: 25%;
+      padding: 1%;
+      div,
+      label,
+      output,
+      input {
+        color: var(--cor-tema-1);
+        background-color: transparent;
+        text-align: center;
+        margin: 0 auto;
+      }
+    }
+  }
+  .demais {
+    border: 3px double;
+    border-bottom: none;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--cor-tema-7);
+    .energia {
+      display: contents;
+      label, output{
+        padding:1px;
+        display: block;
+        align-items: center;
+
+      }
+      &__total {
+       background-color: transparent;
+
+        width: 33%;
+        padding: 1%;
+        display: block;
+        label,
+        output,
+        input {
+          color: var(--cor-tema-1);
+          background-color: transparent;
+
+          text-align: center;
+          border: none;
+        }
+      }
+      &__atual {
+        background-color: transparent;
+
+        color: var(--cor-tema-1);
+        align-items: center;
+        width: 33%;
+        display: block;
+        label {
+          color: var(--cor-tema-1);
+          display: block;
+          background-color: transparent;
+          text-align: center;
+          border: none;
+        }
+
+        input {
+          color: var(--cor-tema-1);
+          background-color: #4a2c2a79;
+          display:inline-block;
+          text-align: center;
+          margin: 0 40%;
+
+        }
+      }
+    }
+    .acessorios {
+      display: contents;
+      &__rd {
+
+        background-color: transparent;
+        color: var(--cor-tema-1);
+        box-sizing: content-box;
+        width: 30%;
+        height: fit-content;
+
+        label {
+          color: var(--cor-tema-1);
+          display: block;
+          background-color: transparent;
+          text-align: center;
+          width: auto;
+        }
+
+        input {
+          color: var(--cor-tema-1);
+          width: 30%;
+          display: block;
+          background-color: #4a2c2a79;
+          text-align: center;
+          margin: 0 auto;
+          box-sizing: border-box;
+        }
+      }
+    }
+
+  }
+   .extra {
+    border: 3px double;
+    border-top: none;
+      display: block;
+      background-color: var(--cor-tema-7);
+      width:100%;
+      &__resistencia {
+        display: inline-block;
+        background: transparent;
+        color: var(--cor-tema-1);
+        width: 50%;
+        height: auto;
+        label {
+          background-color: transparent;
+          display: inline-block;
+          box-sizing: content-box;
+          color: var(--cor-tema-1);
+        }
+        textarea {
+          color: var(--cor-tema-1);
+          width: 100%;
+          font-size: 20px;
+          height: 100%;
+          background-color: #4a2c2a79;
+
+        }
+      }
+      &__vulnerabilidade {
+        display: inline-block;
+        background-color: transparent;
+        color: var(--cor-tema-1);
+        width: 50%;
+        box-sizing: border-box;
+        label {
+          display: block;
+          color: var(--cor-tema-1);
+          background-color: transparent;
+          box-sizing: border-box;
+        }
+
+        textarea {
+          color: var(--cor-tema-1);
+          width: 100%;
+          font-size: 20px;
+          height: 100%;
+          background-color: #4a2c2a79;
+        }
+      }
+    }
+    .marcador {
+    border: 3px double;
+      display: block;
+      background-color: var(--cor-tema-7);
+      width:100%;
+      &__qualidade {
+        display: inline-block;
+        background: transparent;
+        color: var(--cor-tema-1);
+        width: 50%;
+        height: auto;
+        label {
+          background-color: transparent;
+          display: inline-block;
+          box-sizing: content-box;
+          color: var(--cor-tema-1);
+        }
+        textarea {
+          color: var(--cor-tema-1);
+          width: 100%;
+          font-size: 20px;
+          height: 100%;
+          background-color: #4a2c2a79;
+
+        }
+      }
+      &__defeito {
+        display: inline-block;
+        background-color: transparent;
+        color: var(--cor-tema-1);
+        width: 50%;
+        box-sizing: border-box;
+        label {
+          display: block;
+          color: var(--cor-tema-1);
+          background-color: transparent;
+          box-sizing: border-box;
+        }
+
+        textarea {
+          color: var(--cor-tema-1);
+          width: 100%;
+          font-size: 20px;
+          height: 100%;
+          background-color: #4a2c2a79;
+        }
+      }
+    }
+}

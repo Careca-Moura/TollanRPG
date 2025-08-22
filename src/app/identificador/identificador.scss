@@ -1,0 +1,104 @@
+.container-inline {
+  position: relative;
+  width: fit-content;
+  margin: 0 10 0 0;
+  border: 1px solid var(--cor-tema-1);
+  border-radius:15px;
+
+  h1 {
+    display: block;
+    width: fit-content;
+    background-color: transparent;
+    color:var(--cor-tema-1)
+  }
+
+  .form__identificador {
+    background-color: var(--cor-tema-7);
+    div, label{
+      background-color: transparent;
+      color: var(--cor-tema-1);
+
+    }
+    &__div1 {
+      position: relative;
+      margin: 0 auto;
+      display: inline-block;
+      width: 100%;
+
+      &__nome,
+      &__jogador {
+        width: 30%;
+        margin: 5px 2px;
+        background-color: var(--cor-tema-10);
+        font-size: 30px;
+        color: var(--cor-tema-1);
+        ::placeholder {
+          font-size: 30px;
+          color: var(--cor-tema-1);
+        }
+      }
+      &__nivel {
+        width: 5%;
+        text-align: center;
+        background-color: var(--cor-tema-10);
+        color: var(--cor-tema-1);
+
+        ::placeholder {
+          font-size: 30px;
+          color: var(--cor-tema-1);
+        }
+      }
+    }
+    &__div2 {
+      position: relative;
+      margin: 0 auto;
+      display: inline-block;
+      width: 100%;
+
+      &__raça,
+      &__arquetipo {
+        width: min-content;
+        margin: 0 1%;
+        background-color: var(--cor-tema-10);
+        color: var(--cor-tema-1);
+        ::placeholder {
+          font-size: 30px;
+          color: var(--cor-tema-1);
+        }
+      }
+    }
+    &__div3 {
+      width: 33%;
+      display: inline-block;
+      width: 100%;
+
+      &__totem,
+      &__caminho {
+        width: fit-content;
+        margin: 0 1%;
+        padding: 1px;
+        background-color: var(--cor-tema-10);
+        color: var(--cor-tema-1);
+        ::placeholder {
+          font-size: 30px;
+          color: var(--cor-tema-1);
+        }
+      }
+    }
+    .confirmar {
+      border-radius: 2px;
+      position: relative;
+      display: inline;
+      border-radius: 5px;
+      width: 10%;
+      font-size: 24px;
+      color: var(--cor-tema-1);
+      background-color: var(--cor-tema-11);
+    }
+    .confirmar:hover {
+
+      background-color: var(--cor-tema-3);
+      color: var(--cor-tema-11);
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.principal__titulo {
+  width: 100%;
+  align-content: center;
+  font-family: "Caesar Dressing", system-ui;
+  font-weight: bolder;
+  font-size: 48px;
+  font-style: italic;
+  margin: 25px auto;
+
+}
+.atb{
+ margin-top: 2%;;
+  &__principal{
+    display: contents;
+  }
+  &__demais{
+    display: inline-block;
+  }
+}
+.pericia{
+ margin-top: 2%;
+ app-pericia{
+  font-size: 18px;
+ }
+}
+.barra{
+  box-shadow: 5px 5px 10px rgba(71, 35, 22, 0.647);
+  margin-bottom: 2.5%;
+  padding: 1%;
+  background-color: var(--cor-tema-7);
+   &__padrao{
+    background-color: var(--cor-tema-10);
+    color:var(--cor-tema-1);
+    font-size: 24px;
+    display: inline;
+    width: 10%;
+  }
+  &__padrao:hover{
+    background-color:var(--cor-tema-3);
+    color: var(--cor-tema-10);
+    font-size: 24px;
+    display: inline;
+    width: 10%;
+  }
+}

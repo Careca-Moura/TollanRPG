@@ -1,0 +1,145 @@
+<div class="atb__demais">
+  <div class="row ferimentos">
+    <h1>Níveis de Ferimentos</h1>
+    <div class="col-lg-3 ferimentos__leve">
+      <p>Leve</p>
+      <div>
+        <div>
+          <label for="leveBase">Saúde Total: </label>
+          <output name="leveBase"> {{ saudeTotal }}</output>
+        </div>
+        <div>
+          <label for="leveAtual">Saúde atual: </label>
+          <input
+            name="leveAtual"
+            [(ngModel)]="leveAtual"
+            type="number"
+            min="0"
+            [max]="saudeTotal"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 ferimentos__moderado">
+      <p>Moderado</p>
+      <div>
+        <div>
+          <label for="moderadoBase">Saúde Total: </label>
+          <output name="moderadoBase"> {{ saudeTotal }}</output>
+        </div>
+        <div>
+          <label for="moderadoAtual">Saúde atual: </label>
+          <input
+            name="moderadoAtual"
+            [(ngModel)]="moderadoAtual"
+            type="number"
+            min="0"
+            [max]="saudeTotal"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 ferimentos__severo">
+      <p>Severo</p>
+      <div>
+        <div>
+          <label for="severoBase">Saúde Total: </label>
+          <output name="severoBase">{{ saudeTotal }}</output>
+        </div>
+        <div>
+          <label for="severoAtual">Saúde atual: </label>
+          <input
+            name="severoAtual"
+            [(ngModel)]="severoAtual"
+            type="number"
+            min="0"
+            [max]="saudeTotal"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 ferimentos__mortal">
+      <p>Mortal</p>
+      <div>
+        <div>
+          <label for="MortalBase">Saúde Total: </label>
+          <output name="MortalBase">{{ saudeTotal }}</output>
+        </div>
+        <div>
+          <label for="MortalAtual">Saúde atual:</label>
+          <input
+            name="MortalAtual"
+            [(ngModel)]="mortalAtual"
+            type="number"
+            min="0"
+            [max]="saudeTotal"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row demais">
+     <h1>Energia & Redução de dano</h1>
+    <div class="col-lg-3 energia">
+      <div class="energia__total">
+        <label for="energiaTotal">Energia total: </label>
+        <output
+          name="energiaTotal"
+          [value]="energiaTotal"
+          id="energiaTotal"
+        ></output>
+      </div>
+      <div class="energia__atual">
+        <label for="energiaAtual">Energia Atual: </label>
+        <input
+          name="energiaAtual"
+          [(ngModel)]="energiaAtual"
+          type="number"
+          min="0"
+          [max]="energiaTotal"
+        />
+      </div>
+    </div>
+    <div class="col-lg-3 acessorios">
+      <div class="acessorios">
+        <div class="acessorios__rd">
+          <label for="reducao">RD: </label>
+          <input id="rd" name="reducao" type="number" min="0" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row extra">
+    <div class="col-lg-6 extra__resistencia">
+      <label for="resistencia">Resistências:</label>
+      <textarea id="resistencia" name="resistencia" cols="14"></textarea>
+    </div>
+    <div class="col-lg-6 extra__vulnerabilidade">
+      <label for="vulnerabilidade">Vulnerabilidades:</label>
+      <textarea
+        name="vulnerabilidade"
+        id="vulnerabilidade"
+        cols="14"
+      ></textarea>
+    </div>
+  </div>
+  <div class="row marcador">
+     <h1>Marcadores Específicos</h1>
+    <div class="col-lg-6 marcador__qualidade">
+      <label for="qualidades">Qualidades:</label>
+      <textarea id="qualidade" name="qualidade" cols="14"></textarea>
+    </div>
+    <div class="col-lg-6 marcador__defeito">
+      <label for="defeito">Defeitos:</label>
+      <textarea
+        name="defeito"
+        id="defeito"
+        cols="14"
+      ></textarea>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,36 @@
+export enum Chifre {
+  nivel1 = "• Trombeta de Caça: Você foi comissionado pelos espíritos a defender o seu povo e toda a Aztla, sua devoção a caravana atraíram os espíritos protetores do teu povo. Você carrega um fetiche que simboliza a sutileza e bravura dos córnicos em batalha. Muitos carregam uma trombeta ou instrumento de sopro, seja como for, seu fetiche emite um som potente sempre que utilizado (mesmo que nem seja um instrumento musical). Você ganha um Rank numa perícia de combate com armas (à sua escolha).  Enquanto estiver de posse do seu fetiche você pode levantá-lo e convocar seus aliados para a batalha. Você ganha as seguinte habilidades:\n▪ Soar a Trombeta [ ação, 1 PE]: você e todos os aliados próximos ganham o marcador específico “Caçada Selvagem +1” até o fim do teu próximo turno. Este Rank se aplica a todas as rolagens de defesa e ataque.  Se vocês surpreenderem o inimigo, tocar a trombeta é livre.\n▪ Olhos do espreitador [aprimoramento]: A penalidade por usar a manobra mirar diminui um passo, desde que um aliado esteja também adjacente ao inimigo.",
+  nivel2 = 'Aquele que espreita nas matas: Você ganha um Rank de aprimoramento na perícia Gatuno. Você pode executar com uma ação um rápido rito invocando a ajuda dos espíritos descarnados, eles tecem um véu sobre você e seus aliados próximos tornando-os ágeis e furtivos como uma pantera. Gaste um ponto de energia por alvo e todos ganham +1d4 nos testes de Agilidade. ',
+  nivel3 = '',
+  nivel4 = '',
+  nivel5 = '',
+  nivel6 = '',
+  nivel7 = '',
+  nivel8 = '',
+  nivel9 = '',
+  nivel10 = '',
+}
+export enum Artesao {
+  nivel1 = ``,
+  nivel2 = ``,
+  nivel3 = ``,
+  nivel4 = ``,
+  nivel5 = ``,
+  nivel6 = ``,
+  nivel7 = ``,
+  nivel8 = ``,
+  nivel9 = ``,
+  nivel10 = ``,
+}
+export enum Paje {
+  nivel1 = ``,
+  nivel2 = ``,
+  nivel3 = ``,
+  nivel4 = ``,
+  nivel5 = ``,
+  nivel6 = ``,
+  nivel7 = ``,
+  nivel8 = ``,
+  nivel9 = ``,
+  nivel10 = ``,
+}

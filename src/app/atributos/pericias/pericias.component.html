@@ -1,0 +1,47 @@
+<form class="tab" #form="ngForm">
+  <table class="table tab__pericias">
+    <thead class="tab__pericias__head">
+      <tr>
+        <th colspan="4">Perícias</th>
+      </tr>
+      <tr>
+        <th>Nome</th>
+        <th>Atributo</th>
+        <th>Rank</th>
+        <th>Bônus Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <div
+        class="tab__pericias__body"
+        *ngFor="let pericia of lista; let i = index"
+      >
+        <tr>
+          <td class="tab__pericias__body__1">
+            {{ pericia }}
+          </td>
+          <td class="tab__pericias__body__2">{{ completaAtb(pericia) }}</td>
+          <td class="tab__pericias__body__3">
+            <div>
+              <label for="treino"></label>
+              <select
+                class="tab__pericias__body__3"
+                [id]="pericia"
+                [name]="pericia"
+                (change)="arquivaRank($event, i)"
+              >
+
+                <option *ngFor="let treino of treinamento" [value]="treino">
+                  {{ treino }}
+                </option>
+              </select>
+
+            </div>
+          </td>
+
+             <td class="tab__pericias__body__4">{{capturaBonus(i)}}</td>
+        </tr>
+      </div>
+    </tbody>
+  </table>
+</form>

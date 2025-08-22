@@ -1,0 +1,22 @@
+<div class="conteudo">
+  <app-identificador (enviaId)="fixaId($event)"></app-identificador>
+  <div class="row">
+    <div class="col-sm-3 atb">
+      <app-atributos
+        class="atb_principal"
+        [idGeral]="id"
+        (comunicaAtb)="fixaAtbPrincipal($event)"
+      ></app-atributos
+      ><app-caminho [id]="identificacao"></app-caminho></div><div class="col-sm-4"><app-atributos-demais
+        class="atb_demais"
+        [idGeral]="id"
+        [atb]="atb"
+      ></app-atributos-demais><app-equipamento></app-equipamento>
+    </div>
+    <div class="col-sm-5 pericia">
+      <app-pericias></app-pericias>
+
+    </div>
+  </div>
+
+</div>

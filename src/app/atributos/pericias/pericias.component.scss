@@ -1,0 +1,28 @@
+.tab__pericias {
+  width: fit-content;
+   text-align: center;
+      border:2px solid white;
+      padding: 0.5em;
+  &__head {
+    th {
+      text-align: center;
+      width: fit-content;
+      background-color: var(--cor-tema-7);
+      color: var(--cor-tema-1);
+      border-radius: 8px;
+      padding: 0.5em;
+
+    }
+  }
+  &__body {
+    border-radius: 2px;
+    display: contents;
+    td {
+     background-color: var(--cor-tema-6);
+
+      width: fit-content;
+      border-radius: 8px;
+
+    }
+  }
+}

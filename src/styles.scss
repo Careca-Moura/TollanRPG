@@ -1,0 +1,48 @@
+:root {
+  --cor-tema-1: #f7ffe7;
+  --cor-tema-2: #afffea;
+  --cor-tema-3: #60ffd5;
+  --cor-tema-4: #10ffbf;
+  --cor-tema-5: #00c08d;
+  --cor-tema-6: #fbf9f8;
+  --cor-tema-7: #00654a;
+  --cor-tema-8: #005a42;
+  --cor-tema-9: #004f3a;
+  --cor-tema-10: #004331;
+  --cor-tema-11: #001510;
+
+
+
+  *|* {
+    color: var(--cor-tema-11);
+    font-family: "Glass Antiqua", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    background-color: var(--cor-tema-1);
+    font-size: 26px;
+
+    h1 {
+      font-family: "Mystery Quest", system-ui;
+      font-weight: 0;
+      font-style: normal;
+      font-size: 36px;
+      text-align: center;
+      width: 100%;
+    }
+    .caesar-dressing-regular {
+      font-family: "Caesar Dressing", system-ui;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .glass-antiqua-regular {
+      font-family: "Glass Antiqua", cursive;
+      font-weight: 400;
+      font-style: normal;
+    }
+    .mystery-quest-regular {
+      font-family: "Mystery Quest", system-ui;
+      font-weight: 400;
+      font-style: normal;
+    }
+  }
+}

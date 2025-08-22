@@ -1,0 +1,24 @@
+<div>
+  <table class="table caminhos">
+    <thead class="caminhos__head">
+      <tr>
+        <th class="caminhos__head__nivel">
+          Nível
+        </th>
+        <th class="caminhos__head__habilidade">
+          Habilidade
+        </th>
+      </tr>
+    </thead>
+    <tbody class="caminhos__body">
+      <tr *ngFor="let habilidade of habilidades; let nivel = index">
+        <td>
+          {{incrementaNivel(nivel)}}
+        </td>
+        <td>
+          {{habilidade}}
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

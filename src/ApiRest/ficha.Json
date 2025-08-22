@@ -1,0 +1,182 @@
+{
+  "ficha": [
+    {
+      "id": "Mamaco",
+      "nome": "Mamaco",
+      "jogador": "Márcio",
+      "nivel": 2,
+      "raca": "lunatico",
+      "arquetipo": "combatente",
+      "totem": "Suindara",
+      "caminho": "Sentinela",
+      "forcaEscolhido": "Normal +0",
+      "agilidadeEscolhido": "Ágil +1",
+      "vigorEscolhido": "Saudável+1",
+      "astuciaEscolhido": "Normal+0",
+      "sabedoriaEscolhido": "Normal+0",
+      "vontadeEscolhido": "Normal+0",
+      "animismoEscolhido": "Desperto+1",
+      "bonusFor": 0,
+      "bonusAgi": 1,
+      "bonusVig": 1,
+      "bonusAst": 0,
+      "bonusSab": 0,
+      "bonusVon": 0,
+      "bonusAni": 1
+    },
+    {
+      "id": "Tupac",
+      "nome": "Tupac",
+      "jogador": "Marcio",
+      "nivel": 2,
+      "raca": "chirimanta",
+      "arquetipo": "combatente",
+      "totem": "Nagari",
+      "caminho": "Guardião Gélido",
+      "forcaEscolhido": "Forte +1",
+      "agilidadeEscolhido": "Normal +0",
+      "vigorEscolhido": "Robusto+2",
+      "astuciaEscolhido": "Normal+0",
+      "sabedoriaEscolhido": "Normal+0",
+      "vontadeEscolhido": "Normal+0",
+      "animismoEscolhido": "Normal+0",
+      "bonusFor": 1,
+      "bonusAgi": 0,
+      "bonusVig": 2,
+      "bonusAst": 0,
+      "bonusSab": 0,
+      "bonusVon": 0,
+      "bonusAni": 0
+    },
+    {
+      "id": "asasas",
+      "nome": "asasas",
+      "jogador": "asasa",
+      "nivel": 1,
+      "raca": "chirimanta",
+      "arquetipo": "combatente",
+      "totem": "Nagari",
+      "caminho": "Guardião Gélido"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 2,
+      "raca": "",
+      "arquetipo": "",
+      "totem": "escolha sua raça",
+      "caminho": "escolha sua raça e arquétipo"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 2,
+      "raca": "",
+      "arquetipo": "",
+      "totem": "escolha sua raça",
+      "caminho": "escolha sua raça e arquétipo"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 3,
+      "raca": "",
+      "arquetipo": "",
+      "totem": "escolha sua raça",
+      "caminho": "escolha sua raça e arquétipo"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 3,
+      "raca": "chirimanta",
+      "arquetipo": "especialista",
+      "totem": "Nagari",
+      "caminho": "Emissário dos Antigos"
+    },
+    {
+      "id": "a",
+      "nome": "a",
+      "jogador": "a",
+      "nivel": 2,
+      "raca": "cornico",
+      "arquetipo": "conjurador",
+      "totem": "Carvalho Branco",
+      "caminho": "Pajé"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "Evento",
+      "nivel": 2,
+      "raca": "cornico",
+      "arquetipo": "combatente",
+      "totem": "Carvalho Branco",
+      "caminho": "Chifre"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 2,
+      "raca": "cornico",
+      "arquetipo": "combatente",
+      "totem": "Carvalho Branco",
+      "caminho": "Chifre"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "E",
+      "nivel": 2,
+      "raca": "cornico",
+      "arquetipo": "combatente",
+      "totem": "Carvalho Branco",
+      "caminho": "Chifre"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 2,
+      "raca": "",
+      "arquetipo": "",
+      "totem": "escolha sua raça",
+      "caminho": "escolha sua raça e arquétipo"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 2,
+      "raca": "chirimanta",
+      "arquetipo": "combatente",
+      "totem": "Nagari",
+      "caminho": "Guardião Gélido"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "Evento",
+      "nivel": 2,
+      "raca": "vishaal",
+      "arquetipo": "conjurador",
+      "totem": "Ataksak",
+      "caminho": "Sábio"
+    },
+    {
+      "id": "",
+      "nome": "",
+      "jogador": "",
+      "nivel": 2,
+      "raca": "chirimanta",
+      "arquetipo": "conjurador",
+      "totem": "Nagari",
+      "caminho": "Sacerdote de Nagari"
+    }
+  ]
+}

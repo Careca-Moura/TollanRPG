@@ -1,0 +1,27 @@
+.caminhos {
+  margin-top: 4%;
+  margin-left: 1%;
+  &__head {
+    &__nivel {
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    &__habilidade {
+      border-bottom-right-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    th {
+      background-color: var(--cor-tema-7);
+      color: var(--cor-tema-1);
+      text-align: center;
+    }
+  }
+  &__body {
+    td {
+      background-color: var();
+      color: var();
+      font-size: 18px;
+      text-align: justify;
+    }
+  }
+}
